@@ -11,6 +11,6 @@ CAD files are made with the free version of [EAGLE](http://www.cadsoftusa.com/).
 
 ## Schematic
 
-![preview of schematic](schematic.png)
+![preview of schematic](https://raw.github.com/natronics/blinky-lights/master/schematic.png)
 
 
