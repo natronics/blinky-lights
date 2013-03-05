@@ -5463,7 +5463,7 @@ LETTER landscape</description>
 <part name="R2" library="rcl" deviceset="R-US_" device="VTA55" value="4k"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="FRAME1" library="frames" deviceset="LETTER_L" device=""/>
+<part name="FRAME1" library="frames" deviceset="LETTER_L" device="" value="0.1"/>
 <part name="JP1" library="jumper" deviceset="JP1E" device="" value="5V"/>
 <part name="C1" library="blinky-lights" deviceset="CAP" device="" value="10n"/>
 <part name="C2" library="blinky-lights" deviceset="CAP" device="" value="10u"/>
@@ -5758,6 +5758,16 @@ EPL</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="115,1,207.01,116.518,LED0,,,,,"/>
+<approved hash="115,1,207.01,108.898,LED2,,,,,"/>
+<approved hash="115,1,207.01,101.278,LED4,,,,,"/>
+<approved hash="115,1,207.01,93.6583,LED7,,,,,"/>
+<approved hash="115,1,219.71,113.978,LED1,,,,,"/>
+<approved hash="115,1,219.71,106.358,LED3,,,,,"/>
+<approved hash="115,1,219.71,98.7383,LED5,,,,,"/>
+<approved hash="115,1,219.71,91.1183,LED6,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
