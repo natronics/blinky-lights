@@ -5541,7 +5541,7 @@ LETTER landscape</description>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="R5" library="rcl" deviceset="R-US_" device="VTA55" value="10k"/>
-<part name="C3" library="blinky-lights" deviceset="CAP" device="" value="10n"/>
+<part name="C3" library="blinky-lights" deviceset="CAP" device="" value="100u"/>
 </parts>
 <sheets>
 <sheet>
