@@ -5635,16 +5635,6 @@ EPL</text>
 </net>
 <net name="FEEDBACK" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="218.44" y1="106.68" x2="215.9" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="106.68" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="104.14" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="104.14" x2="200.66" y2="132.08" width="0.1524" layer="91"/>
-<junction x="200.66" y="104.14"/>
-<pinref part="Q1" gate="G$1" pin="G"/>
-</segment>
-<segment>
 <pinref part="U2" gate="G$1" pin="DATA"/>
 <wire x1="154.94" y1="99.06" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="99.06" x2="144.78" y2="121.92" width="0.1524" layer="91"/>
@@ -5854,9 +5844,31 @@ EPL</text>
 <junction x="190.5" y="104.14"/>
 </segment>
 </net>
+<net name="SENSE" class="0">
+<segment>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<wire x1="218.44" y1="106.68" x2="215.9" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="106.68" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="104.14" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="104.14" x2="200.66" y2="132.08" width="0.1524" layer="91"/>
+<junction x="200.66" y="104.14"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="115,1,209.55,108.898,LED0,,,,,"/>
+<approved hash="115,1,209.55,101.278,LED2,,,,,"/>
+<approved hash="115,1,209.55,93.6583,LED4,,,,,"/>
+<approved hash="115,1,209.55,86.0383,LED7,,,,,"/>
+<approved hash="115,1,222.25,106.358,LED1,,,,,"/>
+<approved hash="115,1,222.25,98.7383,LED3,,,,,"/>
+<approved hash="115,1,222.25,91.1183,LED5,,,,,"/>
+<approved hash="115,1,222.25,83.4983,LED6,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
