@@ -17,3 +17,10 @@ CAD files are made with the a free copy of [EAGLE](http://www.cadsoftusa.com/) v
 
 ![preview of board](https://raw.github.com/natronics/blinky-lights/master/board.png)
 
+
+# Build Log
+
+## 2013-04-10
+
+Good working breadboard. Schematic and board layout (should) match what is working on my bench.
+
